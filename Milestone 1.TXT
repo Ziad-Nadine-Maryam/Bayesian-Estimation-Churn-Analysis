@@ -1,0 +1,57 @@
+Churn Analysis
+
+An important objective of all mobile operators is to reduce mobile subscribers churn.  A Mobile subscriber churn refers to case when a mobile subscriber ends the use of a mobile number from a given operator and moves to another operator. A mobile subscriber is considered a churn if a particular amount of time has elapsed since the mobile user last connection over lines of this operator. A churning customer represents both loss in the revenue and an increase in the cost of marketing to replace the leaving mobile subscriber.
+
+Churn prediction aims at building a model that identifies the precise customer behaviors and attributes which signal the risk of a customer churn. The objective is to input these parameters to a model and use the model to provide an output that defines the possibility of a customer churn. This information is then used by the marketing team in order to apply marketing techniques and offers that may cause the mobile subscriber to maintain his subscription at a given operator.    
+
+The following links provide more information about churn analysis
+
+https://mixpanel.com/topics/churn-analytics/
+
+https://www.trifacta.com/churn-analysis/
+
+This course project aims at building a churn prediction model. In order to do that the following file of mobile subscriber users will be used.
+
+Mobile churn file 
+
+The file provides information about a number of subscribers  and an indication if this customer churned or not
+
+Data file
+
+The project will be in groups of 4 and will consist of the following assignments. 
+
+The project is based on Python. It is preferable if you use the Anaconda framework. Installation for Anaconda can be found at  https://anaconda.org/
+
+An evaluation will be carried on for each assignment . In the evalution all students in the group are expected to know the details of the project and are all expected to be able to explain the code , change the code and to perfrom certain tasks using the code
+
+Project Assignment 1
+
+In this assignment you need to do and learn the following
+
+1-    Load the churn data file  into python for that you will need  to learn:
+
+a.     How to use Pandas https://pandas.pydata.org/pandas-docs/stable/user_guide/index.html to load a .csv  file into a dataframe.  
+
+b.      How to index data fields inside the loaded data frame (by col name and by col index)
+
+2-    Check the loaded data frame to find out if there is any missing data or if there is any fields that contain NAN of inf values
+
+3-    Clean the data by removing rows that contain NAN or inf values.
+
+4-    Calculate and display the probability of each string for field that contain strings.
+
+5-    Calculate the joint probability for two string fields.
+
+6-    Calculate the conditional probability of a string field given the other
+
+7-    Calculate the histogram for number fields.
+
+8-    Calculate and display in a figure the PDF for each numbered Fields.
+
+9-    Calculate and display in a figure the CDF for numbered Fields.
+
+10-  Calculate the joint pdf (two dimensional pdf for two numbered fields)
+
+11-  Calculate the mean and variance for all numbered col
+
+For steps 4 to 11 it is easier to use numpy ( https://numpy.org/ ) and  matplotlib (https://matplotlib.org/_)
